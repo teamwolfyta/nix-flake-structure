@@ -1,8 +1,6 @@
 # Nix Flake Structure
 
-## Directory Structure
-
-### Apps
+## Apps
 
 ```
 # Flake output: apps.default
@@ -17,7 +15,7 @@ apps
     └─ default.nix
 ```
 
-### Configurations
+## Configurations
 
 > "type": `darwinConfigurations`, `homeConfigurations`, `nixosConfigurations` or `systemConfigs`.
 
@@ -38,7 +36,7 @@ configurations
       └─ default.nix
 ```
 
-### Derivations
+## Derivations
 
 ```
 # Flake output: {type}.default
@@ -53,7 +51,7 @@ configurations
     └─ default.nix
 ```
 
-### Modules
+## Modules
 
 > "type": `darwinModules`, `flakeModules`, `hjemModules`, `homeModules`, `nixosModules` or `systemModules`.
 
@@ -72,7 +70,7 @@ modules
       └─ default.nix
 ```
 
-### Templates
+## Templates
 
 ```
 # Flake output: templates.{name}
