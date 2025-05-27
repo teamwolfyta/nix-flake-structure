@@ -19,6 +19,10 @@ apps
 
 ### Configurations
 
+> "type": `darwinConfigurations`, `homeConfigurations`, `nixosConfigurations` or `systemConfigs`.
+
+<sub>System-Manager, why deviate from the pattern? 😢 </sub> 
+
 ```
 # Flake output: {type}.default
 configuration
@@ -50,6 +54,8 @@ configurations
 ```
 
 ### Modules
+
+> "type": `darwinModules`, `flakeModules`, `hjemModules`, `homeModules`, `nixosModules` or `systemModules`.
 
 ```
 # Flake output: {type}.default
