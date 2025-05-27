@@ -7,6 +7,9 @@
 ```
 app.nix
 
+app
+  └─ default.nix
+
 apps
   ├─ {name}.nix
   └─ {name}
@@ -32,6 +35,9 @@ configurations
 
 ```
 {check|legacyPackage|package|shell}.nix 
+
+{check|legacyPackage|package|shell}
+  └─ default.nix
 
 {checks|legacyPackages|packages|shell}
   ├─ {name}.nix
