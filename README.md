@@ -20,12 +20,12 @@ apps
 
 ```
 configuration
-  ├─ {darwin|hjem|home|nixos|system}.nix
-  └─ {darwin|hjem|home|nixos|system}
+  ├─ {darwin|home|nixos|system}.nix
+  └─ {darwin|home|nixos|system}
     └─ default.nix
 
 configurations
-  └─ {darwin|hjem|home|nixos|system}
+  └─ {darwin|home|nixos|system}
     ├─ {name}.nix
     └─ {name}
       └─ default.nix
