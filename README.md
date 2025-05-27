@@ -2,7 +2,7 @@
 
 ## Apps
 
-```
+```shell
 # Flake output: apps.default
 app.nix
 app
@@ -21,7 +21,7 @@ apps
 
 <sub>System-Manager, why deviate from the pattern? 😢 </sub> 
 
-```
+```shell
 # Flake output: {type}.default
 configuration
   ├─ {darwin|home|nixos|system}.nix
@@ -38,7 +38,7 @@ configurations
 
 ## Derivations
 
-```
+```shell
 # Flake output: {type}.default
 {check|legacyPackage|package|shell}.nix 
 {check|legacyPackage|package|shell}
@@ -55,7 +55,7 @@ configurations
 
 > "type": `darwinModules`, `flakeModules`, `hjemModules`, `homeModules`, `nixosModules` or `systemModules`.
 
-```
+```shell
 # Flake output: {type}.default
 module
   ├─ {darwin|flake|hjem|home|nixos|system}.nix
@@ -72,7 +72,7 @@ modules
 
 ## Templates
 
-```
+```shell
 # Flake output: templates.{name}
 templates
   ├─ templates.nix
