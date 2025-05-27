@@ -15,6 +15,16 @@ apps
     └─ default.nix
 ```
 
+## Clusters
+
+```shell
+clutsers
+  └─ {cluster-name}
+    ├─ default.nix
+    ├─ configurations # Same as #Configurations.
+    └─ modules # Same as #Modules.
+```
+
 ## Configurations
 
 > "type": `darwinConfigurations`, `homeConfigurations`, `nixosConfigurations` or `systemConfigs`.
