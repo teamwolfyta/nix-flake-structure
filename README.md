@@ -21,8 +21,8 @@ apps
 clutsers
   └─ {cluster-name}
     ├─ default.nix
-    ├─ configurations # Same as #Configurations.
-    └─ modules # Same as #Modules.
+    ├─ configurations # Same as #Configurations
+    └─ modules # Same as #Modules
 ```
 
 ## Configurations
