@@ -55,7 +55,7 @@ configurations
   └─ default.nix
 
 # Flake output: {type}.{name}
-{checks|legacyPackages|packages|shell}
+{checks|legacyPackages|packages|shells}
   ├─ {name}.nix
   └─ {name}
     └─ default.nix
